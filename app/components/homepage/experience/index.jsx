@@ -65,6 +65,22 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
+                          <ul style={{
+                            listStyleType: 'disc', // Ensure bullets are shown as discs
+                            listStylePosition: 'outside',
+                            lineHeight: '1.5'
+                          }}>
+                            {experience.description.split('. ').filter(item => item).map((item, index) => (
+                              <li key={index} style={{
+                                display: 'list-item',
+                                verticalAlign: 'top',
+                                wordWrap: 'break-word'
+                              }}>
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+
                         </div>
                       </div>
                     </div>

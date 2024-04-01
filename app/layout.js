@@ -4,17 +4,22 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
+import Head from 'next/head';
 import './css/card.scss';
 import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio of Abu Said',
-  description: 'This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: 'Portfolio of Tirna Adhikary',
+  description: 'This is the portfolio of Tirna Adhikary.',
 }
 
 export default function RootLayout({ children }) {
   return (
+    <>
+    <Head>
+        <link rel="icon" href="/favicon.jpeg" />
+      </Head>
     <html lang="en">
       <body className={inter.className}>
         <ToastContainer />
@@ -26,5 +31,6 @@ export default function RootLayout({ children }) {
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
-  )
-};
+    </>
+  );
+}
