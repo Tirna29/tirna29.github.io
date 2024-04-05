@@ -1,9 +1,12 @@
 {
   "name": "developer-portfolio",
   "description": "Portfolio of Tirna Adhikary",
+  "homepage": "https://tirna29.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+      "predeploy": "npm run build",
+     "deploy": "gh-pages -b master -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
