@@ -8,7 +8,7 @@ export const personalData = {
   significant improvements in operational efficiency and system performance. I'm seeking a chance to emerge as an influential leader and drive meaningful progress for my future employer.",
   email: 'ta5900@g.rit.edu',
   phone: '+5859107695',
-  address: '220 John St, Rochester, NY, USA',
+  address: 'New York, USA',
   github: 'https://github.com/Tirna29',
   linkedIn: 'https://www.linkedin.com/in/tirnaadhikary/',
   resume: "https://drive.google.com/file/d/1JHhd6mWy9DgWaz8T65WfZEFaZfaXz1lr/view?usp=sharing"
