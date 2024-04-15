@@ -60,10 +60,13 @@ function Experience() {
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {experience.title}
-                          </p>
-                          <p className="text-sm sm:text-base">
                             {experience.company}
+                          </p>
+                          <p className="text-sm sm:text-base"style={{
+                            fontWeight: '700',
+                            fontStyle:'italic'
+                          }}>
+                            {experience.title}
                           </p>
                           <ul style={{
                             listStyleType: 'disc', // Ensure bullets are shown as discs
