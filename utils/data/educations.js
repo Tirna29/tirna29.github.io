@@ -8,7 +8,7 @@ export const educations = [
   {    
     id: 2,
     title: "Bachelor Degree in Electronics and Communication Engineering",
-    duration: "Jul 2015 - may 2019",
+    duration: "Jul 2015 - May 2019",
     institution: "SRM Institute of Science and Technology, India"
   }
 ]

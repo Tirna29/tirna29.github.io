@@ -30,8 +30,9 @@ export const projectsData = [
     {
         id: 3,
         name: 'Generalizing Graph HyperNetworks',
-        description: "Pioneered GHN-2 adaptation for unseen datasets using curriculum learning, eliminating retraining needs by using pre-trained GHN-2 weights for initializing the models. Optimized with \
-        CIFAR-10, cut training time by 16%, achieving a breakthrough 84.85% accuracy on CNNs.",
+        description: "Pioneered GHN-2 adaptation for unseen datasets using curriculum learning, eliminating retraining needs by using pre-trained GHN-2 weights for initializing DNN models such as \
+        Resnet-50 and Resnet-50-2. Optimized with \
+        CIFAR-10 and CIFAR-100, thereby reducing the training time by 16% and achieving a breakthrough 84.85% accuracy on DNNs.",
         tools: ['Linux', 'Python', 'PyTorch', 'Matplotlib', 'Scikit-learn', 'NumPy', 'Pandas', 'CNN'],
         code: '',
         demo: '',
@@ -54,7 +55,7 @@ export const projectsData = [
         id: 5,
         name: 'Package Delivery Application',
         description: "Managed a team of 4 in creating a package delivery website, consisting of features such as package booking, dual login capabilities, \
-        and accurate cost estimation. Used PostgreSQL for database management. Implemented the backend using ASP.NET to create RESTful APIs in C#, complemented by \
+        and accurate cost estimation. Implemented the backend using ASP.NET to create RESTful APIs in C#, complemented by \
         Entity Framework Core for data access and PostgreSQL for database management.",
         tools: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'C#', 'ASP.NET', 'Entity Framework Core'],
         role: '',
