@@ -54,7 +54,8 @@ export const projectsData = [
         id: 5,
         name: 'Package Delivery Application',
         description: "Managed a team of 4 in creating a package delivery website, consisting of features such as package booking, dual login capabilities, \
-        and accurate cost estimation. Used PostgreSQL for database management.",
+        and accurate cost estimation. Used PostgreSQL for database management. Implemented the backend using ASP.NET to create RESTful APIs in C#, complemented by \
+        Entity Framework Core for data access and PostgreSQL for database management.",
         tools: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'C#', 'ASP.NET', 'Entity Framework Core'],
         role: '',
         code: '',
