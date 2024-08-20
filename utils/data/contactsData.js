@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'ta5900@g.rit.edu',
+    email: 'ta5900@rit.edu',
     phone: '+5859107695',
-    address: 'New York, USA',
+    address: 'San Jose, California, USA',
     github: 'https://github.com/Tirna29',
     linkedIn: 'https://www.linkedin.com/in/tirnaadhikary/'
 }
