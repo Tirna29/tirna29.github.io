@@ -22,8 +22,8 @@ export const experiences = [
     title: "Senior Systems Engineer",
     company: "Infosys",
     duration: "(Oct 2019 - Dec 2021)",
-    description: "Developed web applications using C#, ASP.NET MVC, HTML5, CSS3, JavaScript frameworks \
-    like React.. Built RESTful APIs with C# and ASP.NET Web API to integrate CRM applications using a \
+    description: "Developed web applications using Java, HTML5, CSS3, JavaScript frameworks \
+    like React.. Built RESTful APIs with Java to integrate applications using a \
     software-oriented architecture (SOA), resulting in streamlined integration of 50+ business processes.. Optimized \
     SQL queries in MS SQL databases using clustered indexes and comprehensive database design, implementing \
     stored procedures, triggers, and views, resulting in a 20% improvement in query speed.. Maintained 99% \
