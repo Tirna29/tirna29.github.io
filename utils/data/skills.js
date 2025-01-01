@@ -2,7 +2,6 @@ export const skillsData = [
   'Java',
   'Kotlin',
   'Python',
-  'C#',
   'HTML',
   'PHP',
   'CSS',
@@ -17,7 +16,7 @@ export const skillsData = [
   'Graphql',
   'Bootstrap',
   'Docker',
-  'Figma',
+  'Numpy',
   'Pytorch',
   'Tensorflow',
   'OpenCV'
