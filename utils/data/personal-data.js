@@ -11,5 +11,5 @@ export const personalData = {
   address: 'San Jose, California, USA',
   github: 'https://github.com/Tirna29',
   linkedIn: 'https://www.linkedin.com/in/tirnaadhikary/',
-  resume: "https://drive.google.com/file/d/1WRaWa3ydJe7KfRWhsFWt3GMT0H7a7kJB/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1maj-S_j9ez3W98C0Uda43_fFxFlBS6RQ/view?usp=sharing"
 }
